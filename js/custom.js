@@ -149,54 +149,52 @@ $(function () {
 
     //    countDownDate js ends here;
 
-//----------------------------------------------------------;
-    
-//    back-to-top js starts here;
- var menuBg = $('.menu-bg');
- var btt = $('.btt');
- var html_body = $('html, body');
+    //----------------------------------------------------------;
 
- $(window).on('scroll',function () {
-     var scrolling = $(this).scrollTop();
-     if(scrolling > 200) {
-         btt.slideDown();
-     } 
-     else{
-         btt.slideUp();
-     }
-     if (scrolling > 300) {
-         menuBg.addClass('stiky');
-     } 
-     else {
-         menuBg.removeClass('stiky');
-     }
- });
+    //    back-to-top js starts here;
+    var menuBg = $('.menu-bg');
+    var btt = $('.btt');
+    var html_body = $('html, body');
 
- btt.on('click', function () {
-     html_body.animate({
-         scrollTop: 0,
-     }, 2000);
- });
+    $(window).on('scroll', function () {
+        var scrolling = $(this).scrollTop();
+        if (scrolling > 200) {
+            btt.slideDown();
+        } else {
+            btt.slideUp();
+        }
+        if (scrolling > 300) {
+            menuBg.addClass('stiky');
+        } else {
+            menuBg.removeClass('stiky');
+        }
+    });
 
- //animation scroll js
- $('.menu-bg a').on('click', function () {
-     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-         var target = $(this.hash);
-         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-         if (target.length) {
-             html_body.animate({
-                 scrollTop: target.offset().top - 0
-             }, 1500);
-             return false;
-         }
-     }
- });
-    
-    
-    
-    
-    
-    
-    
-//    back-to-top js ends here;
+    btt.on('click', function () {
+        html_body.animate({
+            scrollTop: 0,
+        }, 2000);
+    });
+
+    //animation scroll js
+    $('.menu-bg a').on('click', function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                html_body.animate({
+                    scrollTop: target.offset().top - 0
+                }, 1500);
+                return false;
+            }
+        }
+    });
+
+
+
+
+
+
+
+    //    back-to-top js ends here;
 });
