@@ -1,3 +1,19 @@
+/*
+    1. menu css,
+    2. banner css,
+    3. about us section css,
+    4. gallery css,
+    5. dj's css,
+    6. event css,
+    7. blog css,
+    8. testimonials css,
+    9. membership css,
+    10. contact css,
+
+................ends here.................;
+
+*/
+/*table of contant ends here*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 * {
@@ -55,6 +71,11 @@ img {
     padding-bottom: 10px;
     z-index: 999;
     transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    
     border-bottom: 1px solid #ff5f83;
 }
 .menu-bg .menu {
@@ -86,6 +107,10 @@ img {
     flex-direction: column;
     position: relative;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 
 }
 
@@ -96,6 +121,10 @@ img {
     left: 25px;
     visibility: hidden;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
     opacity: 0;
 }
 
@@ -106,6 +135,10 @@ img {
     color: #ddd;
     text-transform: capitalize;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .menu-bg .menu .text ul li a:hover {
@@ -201,6 +234,10 @@ img {
     position: relative;
     z-index: 8;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .banner-bg .banner button:hover {
@@ -218,6 +255,10 @@ img {
     left: 0;
     z-index: -8;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .banner-bg .banner button:hover::before {
@@ -236,6 +277,10 @@ img {
     right: 0;
     z-index: -8;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .banner-bg .banner button:hover::after {
@@ -308,8 +353,11 @@ img {
 
 .about-bg .about .img-side1 img {
     width: 100%;
-    
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .about-bg .about .img-side1 img:hover {
@@ -332,7 +380,11 @@ img {
     width: 50px;
     margin-bottom: 20px;
     margin-top: 5px;
-    transition: all linear 0.4s;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .about-bg:hover .about .text-area img {
@@ -360,6 +412,10 @@ img {
 .about-bg .about .img-side2 img {
     width: 100%;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .about-bg .about .img-side2 img:hover {
@@ -381,7 +437,11 @@ img {
     text-transform: uppercase;
     position: relative;
     z-index: 8;
-    transition: all linear 0.4s;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .about-bg .about .text-area button:hover {
@@ -399,6 +459,10 @@ img {
     left: 0;
     z-index: -8;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .about-bg .about .text-area button:hover::before {
@@ -417,6 +481,10 @@ img {
     right: 0;
     z-index: -8;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .about-bg .about .text-area button:hover::after {
@@ -462,7 +530,11 @@ img {
     width: 50px;
     margin-top: 5px;
     margin-bottom: 30px;
-    transition: all linear 0.4s;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .gallery-bg:hover .gallery > .gallery-heading img {
@@ -489,7 +561,11 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    transition: all linear 0.4s;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
     opacity: 0
 }
 
@@ -509,6 +585,10 @@ img {
     margin-left: 10px;
     cursor: pointer;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .gallery-bg .gallery .img-gallery .img1 .overlay i:hover {
@@ -535,7 +615,11 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    transition: all linear 0.4s;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
     opacity: 0
 }
 
@@ -555,6 +639,10 @@ img {
     margin-left: 10px;
     cursor: pointer;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .gallery-bg .gallery .img-gallery .img2 .overlay i:hover {
@@ -587,7 +675,11 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    transition: all linear 0.4s;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
     opacity: 0
 }
 
@@ -607,6 +699,10 @@ img {
     margin-left: 10px;
     cursor: pointer;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .gallery-bg .gallery .img-gallery .img3 .one-img .overlay i:hover {
@@ -633,7 +729,11 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    transition: all linear 0.4s;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
     opacity: 0
 }
 
@@ -653,6 +753,10 @@ img {
     margin-left: 10px;
     cursor: pointer;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .gallery-bg .gallery .img-gallery .img3 .two-img .overlay i:hover {
@@ -678,7 +782,11 @@ img {
     margin-top: 30px;
     position: relative;
     z-index: 8;
-    transition: all linear 0.4s;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .gallery-bg .gallery > a:hover {
@@ -696,6 +804,10 @@ img {
     left: 0;
     z-index: -8;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .gallery-bg .gallery > a:hover::before {
@@ -714,6 +826,10 @@ img {
     right: 0;
     z-index: -8;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .gallery-bg .gallery > a:hover::after {
@@ -750,6 +866,10 @@ img {
     width: 50px;
     margin-top: 5px;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .dj-bg:hover .dj .heading img {
@@ -763,6 +883,10 @@ img {
     height: 270px;
     position: relative;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .dj-bg .dj .all-dj .mover:hover {
@@ -773,6 +897,10 @@ img {
 .dj-bg .dj .all-dj .mover img {
     height: 100%;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
     position: relative;
 }
 
@@ -807,6 +935,10 @@ img {
     box-sizing: border-box;
     opacity: 0;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .dj-bg .dj .all-dj .mover:hover .overlay {
@@ -825,6 +957,10 @@ img {
     margin-left: 10px;
     cursor: pointer;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .dj-bg .dj .all-dj .mover .overlay i:hover {
@@ -860,6 +996,10 @@ img {
     z-index: 10;
     opacity: 0;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .dj-bg .dj .slick-prev:hover {
@@ -880,6 +1020,10 @@ img {
     z-index: 10;
     opacity: 0;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .dj-bg .dj .slick-next:hover {
@@ -934,6 +1078,10 @@ img {
 .event-bg .event .heading img {
     width: 50px;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .event-bg:hover .event .heading img {
@@ -953,6 +1101,10 @@ img {
 
 .event-bg .event .event-item .event-img-slider .event-img img {
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .event-bg .event .event-item .event-img-slider .event-img img:hover {
@@ -1050,6 +1202,10 @@ h6 {
     z-index: 10;
     opacity: 0;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .event-bg .event .event-item .slick-prev:hover {
@@ -1070,6 +1226,10 @@ h6 {
     z-index: 10;
     opacity: 0;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .event-bg .event .event-item .slick-next:hover {
@@ -1103,6 +1263,10 @@ h6 {
 .blog-bg .blog .heading img {
     width: 50px;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
     margin-bottom: 30px;
 }
 
@@ -1137,6 +1301,10 @@ h6 {
     box-sizing: border-box;
     opacity: 0;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .blog-bg .blog .blog-slider .blog-item:hover .overlay {
@@ -1157,6 +1325,10 @@ h6 {
     margin-left: 10px;
     cursor: pointer;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .blog-bg .blog .blog-slider .blog-item i:hover {
@@ -1209,7 +1381,11 @@ h6 {
     margin-top: 30px;
     position: relative;
     z-index: 8;
-    transition: all linear .5s;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
     position: relative;
     top: -80px;
     opacity: 0;
@@ -1236,6 +1412,10 @@ h6 {
     left: 0;
     z-index: -8;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .blog-bg .blog .blog-slider .blog-item a:hover::before {
@@ -1254,6 +1434,10 @@ h6 {
     right: 0;
     z-index: -8;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .blog-bg .blog .blog-slider .blog-item a:hover::after {
@@ -1271,6 +1455,10 @@ h6 {
     z-index: 10;
     opacity: 0;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .blog-bg .blog .blog-slider .slick-prev:hover {
@@ -1291,6 +1479,10 @@ h6 {
     z-index: 10;
     opacity: 0;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .blog-bg:hover .blog .blog-slider .slick-next {
@@ -1346,6 +1538,10 @@ h6 {
 .tesi-bg .tesi .heading img {
     width: 50px;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .tesi-bg:hover .tesi .heading img {
@@ -1373,6 +1569,10 @@ h6 {
 
 .tesi-bg .tesi .tesi-item .tesi-img img {
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .tesi-bg .tesi .tesi-item .tesi-img img:hover {
@@ -1445,6 +1645,10 @@ h6 {
     z-index: 10;
     opacity: 0;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .tesi-bg .tesi .slick-prev:hover {
@@ -1465,6 +1669,10 @@ h6 {
     z-index: 10;
     opacity: 0;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .tesi-bg .tesi .slick-next:hover {
@@ -1500,6 +1708,10 @@ h6 {
 .mem-bg .mem .heading img {
     width: 50px;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .mem-bg:hover .mem .heading img {
@@ -1519,6 +1731,10 @@ h6 {
     text-align: center;
     position: relative;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .mem-bg .mem .mem-item .mem-ship:hover {
@@ -1537,6 +1753,10 @@ h6 {
     border-bottom: 1px solid #fff;
     margin-bottom: 80px;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
     margin-top: 10px;
 }
 
@@ -1557,6 +1777,10 @@ h6 {
     left: 50%;
     transform: translateX(-50%);
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .mem-bg .mem .mem-item .mem-ship:hover .money {
@@ -1568,6 +1792,10 @@ h6 {
     font-weight: 800;
     color: #ff5f83;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .mem-bg .mem .mem-item .mem-ship .money p span {
@@ -1601,7 +1829,11 @@ h6 {
     left: 0;
     opacity: 0;
     margin-bottom: 30px;
-    transition: all linear 0.4s;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .mem-bg .mem .mem-item .mem-ship:hover a {
@@ -1721,6 +1953,10 @@ h6 {
     margin-top: 15px;
     float: left;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 
 }
 
@@ -1784,6 +2020,10 @@ h6 {
     outline: none;
     cursor: pointer;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
     margin-bottom: 20px;
 }
 
@@ -1811,6 +2051,10 @@ h6 {
     justify-content: center;
     align-items: center;
     transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -moz-transition: all linear .4s;
 }
 
 .contact-bg .contact .contact-item .sign ul li i:hover {
